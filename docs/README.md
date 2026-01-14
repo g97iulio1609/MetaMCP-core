@@ -1,7 +1,17 @@
 # MetaMCP Core
 
-## Overview
-Core utilities and shared types for MetaMCP.
+Shared utilities and configuration logic for the MetaMCP monorepo packages.
 
-## Usage
-Include this package in your MCP server to access common graph API clients and configuration helpers.
+## Installation
+
+```bash
+npm install @meta-mcp/core
+```
+
+## Features
+
+- **Base Configuration**: Common abstract classes for configuration management.
+- **Types**: Shared TypeScript interfaces/types used across Facebook, Instagram, etc.
+- **Error Handling**: Standardized `McpError` types.
+
+ This package is primarily intended for internal use by the other `@meta-mcp/*` packages.
